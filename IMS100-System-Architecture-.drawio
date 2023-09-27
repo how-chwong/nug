@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T01:33:40.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ogszara1kM3-wbDwQyFN" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T02:12:11.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wPp19tTxag08U40_gwcu" version="21.7.5" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1687" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -520,8 +520,8 @@
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-134" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="651.3235294117644" y="1313" as="sourcePoint" />
-            <mxPoint x="970" y="1313" as="targetPoint" />
+            <mxPoint x="651.3235294117644" y="1410" as="sourcePoint" />
+            <mxPoint x="970" y="1410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-135" value="分析结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-134">
@@ -531,11 +531,11 @@
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-136" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="971" y="1351" as="sourcePoint" />
-            <mxPoint x="969" y="1431" as="targetPoint" />
+            <mxPoint x="971" y="1448" as="sourcePoint" />
+            <mxPoint x="969" y="1528" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1041" y="1351" />
-              <mxPoint x="1041" y="1431" />
+              <mxPoint x="1041" y="1448" />
+              <mxPoint x="1041" y="1528" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -553,6 +553,21 @@
         <mxCell id="gCKSwxHr6gFbuDcbhf19-140" value="解析后的日志文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-139">
           <mxGeometry x="0.4432" y="-2" relative="1" as="geometry">
             <mxPoint x="-35" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-141" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="812" y="1300" as="sourcePoint" />
+            <mxPoint x="810" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="1300" />
+              <mxPoint x="860" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-142" value="入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-141">
+          <mxGeometry x="0.0062" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
