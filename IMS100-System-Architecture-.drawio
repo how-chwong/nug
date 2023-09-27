@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T09:30:44.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1R1fic2jaol9o3gQeNvw" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T01:08:51.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8Tm3Jw2BoAzNx3FWpDtE" version="21.7.5" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1687" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -339,10 +339,10 @@
         <mxCell id="gCKSwxHr6gFbuDcbhf19-100" value="LogDecoder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="440" y="600" width="100" height="1050" as="geometry" />
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-101" value="LogPersister" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-101" value="LogAnalyzer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="602" y="600" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-102" value="LogAnalyzer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-102" value="LogPersister" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="760" y="600" width="100" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.506;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -459,20 +459,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-120" value="从缓存取数据并定时写入文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-119">
-          <mxGeometry x="0.0062" relative="1" as="geometry">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-138" value="初始化分析模板" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-119">
+          <mxGeometry x="-0.0058" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-121" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="491.70352941176486" y="1200" as="sourcePoint" />
-            <mxPoint x="812.2899999999995" y="1200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-122" value="解析后的日志文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-121">
-          <mxGeometry x="0.4432" y="-2" relative="1" as="geometry">
-            <mxPoint x="-35" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-123" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -485,22 +474,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-124" value="初始化分析模板" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-123">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-124" value="从缓存取数据并定时写入文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-123">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-125" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="812" y="1240" as="sourcePoint" />
-            <mxPoint x="810" y="1320" as="targetPoint" />
+            <mxPoint x="652" y="1220" as="sourcePoint" />
+            <mxPoint x="650" y="1300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="882" y="1240" />
-              <mxPoint x="882" y="1320" />
+              <mxPoint x="722" y="1220" />
+              <mxPoint x="722" y="1300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-126" value="按模板分析日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-125">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-126" value="从缓存取并按模板分析日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-125">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -529,7 +518,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-134" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-134" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="gCKSwxHr6gFbuDcbhf19-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810.0035294117649" y="1360" as="sourcePoint" />
             <mxPoint x="970" y="1360" as="targetPoint" />
@@ -553,6 +542,17 @@
         <mxCell id="gCKSwxHr6gFbuDcbhf19-137" value="更新设备状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-136">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-139" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651.3235294117644" y="1332" as="sourcePoint" />
+            <mxPoint x="809.4999999999995" y="1332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-140" value="解析后的日志文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gCKSwxHr6gFbuDcbhf19-139">
+          <mxGeometry x="0.4432" y="-2" relative="1" as="geometry">
+            <mxPoint x="-35" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
