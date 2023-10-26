@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T05:21:17.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SeCZoNpbJhASGAf9nrDd" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T05:28:34.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="WaQ7ljm2lA79BVCMt65k" version="22.0.8" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1434" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GqUtMFxcOgFXmz0cksvn-104" value="确认数据需求并梳理变更" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=14;labelBackgroundColor=none;" edge="1" parent="1" target="GqUtMFxcOgFXmz0cksvn-90">
-          <mxGeometry x="-0.0028" width="80" relative="1" as="geometry">
+          <mxGeometry x="0.108" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="370" as="sourcePoint" />
             <mxPoint x="440" y="80" as="targetPoint" />
             <Array as="points">
@@ -51,7 +51,7 @@
         <mxCell id="GqUtMFxcOgFXmz0cksvn-107" value="&lt;b&gt;安质组&lt;br style=&quot;font-size: 14px;&quot;&gt;刘铭&lt;br&gt;&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="-120" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="GqUtMFxcOgFXmz0cksvn-108" value="邮件发送变更通知并邀请评审" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=14;labelBackgroundColor=none;" edge="1" parent="1" target="GqUtMFxcOgFXmz0cksvn-105">
+        <mxCell id="GqUtMFxcOgFXmz0cksvn-108" value="邮件发送变更通知并邀请评审" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=14;labelBackgroundColor=none;strokeColor=#ed0707;" edge="1" parent="1" target="GqUtMFxcOgFXmz0cksvn-105">
           <mxGeometry x="0.0025" width="80" relative="1" as="geometry">
             <mxPoint x="370" y="80" as="sourcePoint" />
             <mxPoint x="450" y="80" as="targetPoint" />
@@ -161,6 +161,9 @@
         </mxCell>
         <mxCell id="GqUtMFxcOgFXmz0cksvn-130" value="数&lt;br&gt;据&lt;br&gt;归&lt;br&gt;档" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="725" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GqUtMFxcOgFXmz0cksvn-131" value="&lt;b&gt;数据发布目录：&lt;br&gt;http://172.16.210.22/svn/SRDC-DATA-CBTC&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;数据变更目录：&lt;/b&gt;&lt;br&gt;&lt;b&gt;http://172.16.210.22/svn/SRDC-DATA-CBTC/90 变更管理&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;数据归档目录：&lt;/b&gt;&lt;br&gt;&lt;b&gt;http://172.16.210.22/svn/SRDC-NUSPRO100-ENVIRONMENT/7.NUSPRO100-DATA&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="1100" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
