@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-07T06:30:05.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="gDHqMf0PBJ_7kILJ-2Yt" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T03:24:31.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="umUUxCovmT5M9Glc02iB" version="22.1.1" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1434" dy="1608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -342,9 +342,6 @@
         <mxCell id="gCKSwxHr6gFbuDcbhf19-101" value="LogConverter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="602" y="600" width="100" height="1060" as="geometry" />
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-102" value="LogPersister" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="760" y="600" width="100" height="1050" as="geometry" />
-        </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.506;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170.60000000000014" y="720.9200000000005" as="sourcePoint" />
@@ -392,30 +389,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-110" value="入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-109" vertex="1" connectable="0">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-110" value="加入原始数据缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-109" vertex="1" connectable="0">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-111" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="488" y="680" as="sourcePoint" />
-            <mxPoint x="486" y="760" as="targetPoint" />
+            <mxPoint x="488" y="1040" as="sourcePoint" />
+            <mxPoint x="486" y="1120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="530" y="680" />
-              <mxPoint x="530" y="760" />
+              <mxPoint x="530" y="1040" />
+              <mxPoint x="530" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-112" value="从缓存取数据并解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-111" vertex="1" connectable="0">
+        <mxCell id="gCKSwxHr6gFbuDcbhf19-112" value="从原始数据缓存取数据并解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-111" vertex="1" connectable="0">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-113" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="488.91352941176484" y="1007" as="sourcePoint" />
-            <mxPoint x="651.09" y="1007" as="targetPoint" />
+            <mxPoint x="488.91352941176484" y="1160" as="sourcePoint" />
+            <mxPoint x="651.09" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-114" value="解析后的日志文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-113" vertex="1" connectable="0">
@@ -425,11 +422,11 @@
         </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-115" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="652" y="1029" as="sourcePoint" />
-            <mxPoint x="650" y="1109" as="targetPoint" />
+            <mxPoint x="652" y="1190" as="sourcePoint" />
+            <mxPoint x="650" y="1270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="700" y="1029" />
-              <mxPoint x="700" y="1109" />
+              <mxPoint x="700" y="1190" />
+              <mxPoint x="700" y="1270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -464,28 +461,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-123" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="812" y="880" as="sourcePoint" />
-            <mxPoint x="810" y="960" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="882" y="880" />
-              <mxPoint x="882" y="960" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-124" value="从缓存取数据并定时写入文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-123" vertex="1" connectable="0">
-          <mxGeometry x="0.0062" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gCKSwxHr6gFbuDcbhf19-125" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="652" y="1151" as="sourcePoint" />
-            <mxPoint x="650" y="1231" as="targetPoint" />
+            <mxPoint x="652" y="1312" as="sourcePoint" />
+            <mxPoint x="650" y="1392" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="722" y="1151" />
-              <mxPoint x="722" y="1231" />
+              <mxPoint x="722" y="1312" />
+              <mxPoint x="722" y="1392" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -544,28 +526,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-139" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="baMqp6UzJeFXSzMUX_3h-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="651.3235294117644" y="1266" as="sourcePoint" />
-            <mxPoint x="809.4999999999995" y="1266" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-140" value="解析后的日志文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-139" vertex="1" connectable="0">
-          <mxGeometry x="0.4432" y="-2" relative="1" as="geometry">
-            <mxPoint x="-35" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-141" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="812" y="1300" as="sourcePoint" />
-            <mxPoint x="810" y="1380" as="targetPoint" />
+            <mxPoint x="492" y="1300" as="sourcePoint" />
+            <mxPoint x="490" y="1380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="860" y="1300" />
-              <mxPoint x="860" y="1380" />
+              <mxPoint x="562" y="1300" />
+              <mxPoint x="562" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gCKSwxHr6gFbuDcbhf19-142" value="入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gCKSwxHr6gFbuDcbhf19-141" vertex="1" connectable="0">
+        <mxCell id="baMqp6UzJeFXSzMUX_3h-2" value="从解析数据缓存取数据并写入文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="baMqp6UzJeFXSzMUX_3h-1">
+          <mxGeometry x="0.0062" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="baMqp6UzJeFXSzMUX_3h-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488" y="1195" as="sourcePoint" />
+            <mxPoint x="486" y="1275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="1195" />
+              <mxPoint x="530" y="1275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="baMqp6UzJeFXSzMUX_3h-5" value="加入解析数据缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="baMqp6UzJeFXSzMUX_3h-4">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
