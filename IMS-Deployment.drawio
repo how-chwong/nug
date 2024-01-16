@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T07:38:17.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5uaY6m_QyqT315y6kfkG" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T07:39:24.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="haY2dXoPPF_MeVSKeO7T" version="22.1.18" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2253" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -191,8 +191,8 @@
             <mxPoint x="736.0169999999998" y="791.9639999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2274" value="&lt;font color=&quot;#23445d&quot;&gt;集中站&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="926" y="340" width="225" height="19" as="geometry" />
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2274" value="&lt;font color=&quot;#23445d&quot;&gt;车辆段&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="723" y="411" width="225" height="19" as="geometry" />
         </mxCell>
         <mxCell id="vkNKLQlULWIMrCskGfcK-2275" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="562" y="435.25" width="89" height="98" as="geometry" />
