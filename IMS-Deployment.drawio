@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T02:03:02.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6LpJfpnAnQba9E1c5WXR" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T04:36:20.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7xxvSKeHI0rV7G9rV3yW" version="22.1.18" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2253" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -70,31 +70,31 @@
         <mxCell id="chNrVIpnMzZten6UTjGX-2269" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=right;opacity=60;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="60" y="400" width="390" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2234" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2234" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="353" y="66" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2235" value="大数据集群" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.file_server;fontStyle=1;fontColor=#666666;labelPosition=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2235" value="大数据集群" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.file_server;fontStyle=1;fontColor=#666666;labelPosition=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="800" y="62.5" width="71" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2236" value="接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2236" value="接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="650" y="63" width="75.5" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2237" value="缓存服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2237" value="缓存服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="210" y="62.25" width="71" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2239" value="应用服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2239" value="应用服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="508" y="68.5" width="65" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2240" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2240" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="53" y="62" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2241" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;exitX=0.969;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2152" target="vkNKLQlULWIMrCskGfcK-2235">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2241" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;exitX=0.969;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2152" target="vkNKLQlULWIMrCskGfcK-2235" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="697" y="219" as="sourcePoint" />
             <mxPoint x="697" y="169" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2242" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;exitX=0.167;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2242" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;exitX=0.167;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="191.8699999999999" y="345" as="sourcePoint" />
             <mxPoint x="170.5" y="771.5" as="targetPoint" />
@@ -103,152 +103,152 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2243" value="&lt;font color=&quot;#23445d&quot;&gt;集中站&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2243" value="&lt;font color=&quot;#23445d&quot;&gt;集中站&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="20.25" y="411" width="225" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2246" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2246" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="319" y="430" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2248" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2246">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2248" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="vkNKLQlULWIMrCskGfcK-2246" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="214" y="479" as="sourcePoint" />
             <mxPoint x="315" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2249" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2249" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="319" y="568" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2250" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2249">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2250" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="vkNKLQlULWIMrCskGfcK-2249" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="213" y="613" as="sourcePoint" />
             <mxPoint x="320" y="616" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2251" value="采集接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2251" value="采集接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="320" y="700.5" width="65" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2252" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2252" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="211" y="748" as="sourcePoint" />
             <mxPoint x="322" y="747.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2254" value="车站接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2254" value="车站接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="95" y="721.5" width="75.5" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2256" value="计轴" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2256" value="计轴" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="-70" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2257" value="道岔缺口" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2257" value="道岔缺口" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="50" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2258" value="电源屏" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2258" value="电源屏" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="170" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2264" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2254">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2264" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="vkNKLQlULWIMrCskGfcK-2254" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="900" as="sourcePoint" />
             <mxPoint x="20" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2265" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="vkNKLQlULWIMrCskGfcK-2257" target="vkNKLQlULWIMrCskGfcK-2254">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2265" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="vkNKLQlULWIMrCskGfcK-2257" target="vkNKLQlULWIMrCskGfcK-2254" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-20" y="910" as="sourcePoint" />
             <mxPoint x="105" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2266" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="vkNKLQlULWIMrCskGfcK-2258" target="vkNKLQlULWIMrCskGfcK-2254">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2266" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="vkNKLQlULWIMrCskGfcK-2258" target="vkNKLQlULWIMrCskGfcK-2254" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="920" as="sourcePoint" />
             <mxPoint x="115" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2267" value="ZC维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2267" value="ZC维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="-80" y="500" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2268" value="CBI维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2268" value="CBI维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="-80" y="660" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2270" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2270" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-19" y="550" as="sourcePoint" />
             <mxPoint x="211" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2271" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2271" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-19" y="690" as="sourcePoint" />
             <mxPoint x="211" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2272" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=right;opacity=60;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2272" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=right;opacity=60;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="520" y="400" width="400" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2273" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;entryX=-0.066;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2273" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1;entryX=-0.066;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="667" y="345" as="sourcePoint" />
             <mxPoint x="736.0169999999998" y="791.9639999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2274" value="&lt;font color=&quot;#23445d&quot;&gt;车辆段&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2274" value="&lt;font color=&quot;#23445d&quot;&gt;车辆段&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#742B21;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="723" y="411" width="225" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2275" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2275" value="维护终端" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;fontStyle=1;fontSize=14;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="562" y="435.25" width="89" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2276" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2275">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2276" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="vkNKLQlULWIMrCskGfcK-2275" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="700" y="484" as="sourcePoint" />
             <mxPoint x="784" y="454" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2277" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2277" value="应用数据服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="562" y="565.25" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2279" value="采集接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2279" value="采集接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;fontSize=14;fontStyle=1;labelPosition=center;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="563" y="705.75" width="65" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2280" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2279">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2280" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="vkNKLQlULWIMrCskGfcK-2279" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="700" y="748" as="sourcePoint" />
             <mxPoint x="791" y="727.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2281" value="车站接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2281" value="车站接口服务器" style="verticalLabelPosition=top;sketch=0;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.command_center;labelPosition=center;fontSize=14;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="745" y="721.5" width="75.5" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2282" value="计轴" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2282" value="计轴" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="580" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2283" value="道岔缺口" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2283" value="道岔缺口" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="700" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2284" value="电源屏" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2284" value="电源屏" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="820" y="900" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2285" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2281">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2285" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="vkNKLQlULWIMrCskGfcK-2281" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="900" as="sourcePoint" />
             <mxPoint x="670" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2286" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="vkNKLQlULWIMrCskGfcK-2283" target="vkNKLQlULWIMrCskGfcK-2281">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2286" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="vkNKLQlULWIMrCskGfcK-2283" target="vkNKLQlULWIMrCskGfcK-2281" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="910" as="sourcePoint" />
             <mxPoint x="755" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2287" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="vkNKLQlULWIMrCskGfcK-2284" target="vkNKLQlULWIMrCskGfcK-2281">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2287" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="vkNKLQlULWIMrCskGfcK-2284" target="vkNKLQlULWIMrCskGfcK-2281" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="920" as="sourcePoint" />
             <mxPoint x="765" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2289" value="CBI维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2289" value="CBI维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="960" y="420" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2290" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="vkNKLQlULWIMrCskGfcK-2289">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2290" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="vkNKLQlULWIMrCskGfcK-2289" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="700" y="460" as="sourcePoint" />
             <mxPoint x="913" y="460" as="targetPoint" />
@@ -257,16 +257,16 @@
         <mxCell id="2154" value="" style="line;html=1;strokeColor=#23445D;" parent="1" vertex="1">
           <mxGeometry x="90" y="340" width="600" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2295" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2295" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="700" y="600" as="sourcePoint" />
             <mxPoint x="628" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2296" value="ATS维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" vertex="1" parent="1">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2296" value="ATS维护机" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_2;fillColor=#e6eada;fontSize=14;fontStyle=1;fontColor=#6B6B6B;" parent="1" vertex="1">
           <mxGeometry x="-50" y="240" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vkNKLQlULWIMrCskGfcK-2297" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" edge="1" parent="1" target="2154">
+        <mxCell id="vkNKLQlULWIMrCskGfcK-2297" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;strokeColor=#23445D;endFill=0;strokeWidth=4;rounded=1" parent="1" target="2154" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="10" y="290" as="sourcePoint" />
             <mxPoint x="115" y="290" as="targetPoint" />
