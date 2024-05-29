@@ -1,35 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T06:19:06.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Roa2HGBk9Xj7vA3vStIQ" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T01:14:32.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="glFxaZuxFirwOgwVZ_c9" version="24.4.8" type="github">
   <diagram name="第 1 页" id="flT9kh5dxX5JUW0oUqpq">
-    <mxGraphModel dx="1426" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9cagWILOptxMrmFHNgYF-1" value="司控台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="41" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-2" value="模拟箱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="401" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-3" value="数字量采集/驱动设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="41" y="160" width="479" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-4" value="TrainSimu App" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="55" y="280" width="480" height="640" as="geometry" />
-        </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-5" value="模拟量采集/驱动设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="41" y="280" width="519" height="640" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-6" value="数字量采集/驱动设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1150" width="200" height="40" as="geometry" />
+          <mxGeometry x="40" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-7" value="模拟量采集/驱动设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1150" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-8" value="转速台" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;textDirection=vertical-rl;" vertex="1" parent="1">
-          <mxGeometry x="615" y="240" width="40" height="120" as="geometry" />
+        <mxCell id="9cagWILOptxMrmFHNgYF-7" value="模拟量采集设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="75" y="790" width="450" height="110" as="geometry" />
+          <mxGeometry x="61" y="790" width="450" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-10" value="VOBC点位管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="9cagWILOptxMrmFHNgYF-9">
           <mxGeometry width="450" height="110" as="geometry" />
@@ -41,7 +35,7 @@
           <mxGeometry x="310" y="25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="70" y="310" width="450" height="110" as="geometry" />
+          <mxGeometry x="56" y="310" width="450" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-14" value="外设点位管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="9cagWILOptxMrmFHNgYF-13">
           <mxGeometry width="450" height="110" as="geometry" />
@@ -51,6 +45,39 @@
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-16" value="车辆输出/外设输入&lt;div&gt;点位管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9cagWILOptxMrmFHNgYF-13">
           <mxGeometry x="310" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-17" value="转速台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="626" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-18" value="奇端VOBC机柜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="1120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-19" value="偶端VOBC机柜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="1120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9cagWILOptxMrmFHNgYF-18" target="9cagWILOptxMrmFHNgYF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1080" as="sourcePoint" />
+            <mxPoint x="190" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-22" value="驱动/指令" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="9cagWILOptxMrmFHNgYF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9cagWILOptxMrmFHNgYF-6" target="9cagWILOptxMrmFHNgYF-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1080" as="sourcePoint" />
+            <mxPoint x="130" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-25" value="车辆状态" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="9cagWILOptxMrmFHNgYF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-30" value="业务模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61" y="450" width="459" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-32" value="1.IO点位的驱动采集要与业务逻辑在一个周期内顺序完成" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="81" y="-310" width="399" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
