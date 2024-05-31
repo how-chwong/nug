@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T02:31:52.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1Z6BolQlwoEHIRX2yUN9" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T02:33:58.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4-Z6kI4wiPRGFDsVEYcJ" version="24.4.8" type="github">
   <diagram name="第 1 页" id="flT9kh5dxX5JUW0oUqpq">
     <mxGraphModel dx="1426" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="9cagWILOptxMrmFHNgYF-30" value="驱动采集器&lt;div&gt;提供抽象接口，实现多种不同设备SDK的驱采逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="500" width="199" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-32" value="1.IO点位的驱动采集要与业务逻辑在一个周期内顺序完成" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="81" y="-310" width="399" height="220" as="geometry" />
+        <mxCell id="9cagWILOptxMrmFHNgYF-32" value="1.IO点位的驱动采集要与业务逻辑在一个周期内顺序完成&lt;div&gt;2.IO配置已按钮或表示灯为基本单元配置，一个按钮或表示灯可能关联多个点位，一个点位可关联多个配线，每个配线都有一个有效值和无效值&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-180" width="399" height="220" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-33" value="点位配置&lt;div&gt;提供可视化UI，实现对点位信息的管理，并生成配置文件，如点位名称、配线、有效值、无效值&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307" y="430" width="199" height="60" as="geometry" />
