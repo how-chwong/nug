@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T01:15:22.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MmyM_lbVyfsgQ1CL18rY" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T02:21:16.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="w9LjIK3GCqJ8E6AzKfxk" version="24.4.8" type="github">
   <diagram name="第 1 页" id="flT9kh5dxX5JUW0oUqpq">
     <mxGraphModel dx="1426" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="9cagWILOptxMrmFHNgYF-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="56" y="310" width="450" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-14" value="外设点位管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="9cagWILOptxMrmFHNgYF-13">
+        <mxCell id="9cagWILOptxMrmFHNgYF-14" value="司控点位管理" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="9cagWILOptxMrmFHNgYF-13">
           <mxGeometry width="450" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-15" value="车辆输入/外设输出&lt;div&gt;点位管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="9cagWILOptxMrmFHNgYF-13">
@@ -73,11 +73,29 @@
         <mxCell id="9cagWILOptxMrmFHNgYF-25" value="车辆状态" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="9cagWILOptxMrmFHNgYF-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9cagWILOptxMrmFHNgYF-30" value="业务模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="61" y="450" width="459" height="300" as="geometry" />
+        <mxCell id="9cagWILOptxMrmFHNgYF-30" value="驱动采集器&lt;div&gt;提供抽象接口，实现多种不同设备SDK的驱采逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="199" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9cagWILOptxMrmFHNgYF-32" value="1.IO点位的驱动采集要与业务逻辑在一个周期内顺序完成" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="81" y="-310" width="399" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-33" value="点位配置&lt;div&gt;提供可视化UI，实现对点位信息的管理，并生成配置文件，如点位名称、配线、有效值、无效值&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="430" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-34" value="&lt;div&gt;外部设备管理&lt;/div&gt;&lt;div&gt;提供可视化UI，实现外设信息的管理，并生成配置文件，如采集卡型号、雷达型号、转速台、测速仪等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-35" value="驱动采集器&lt;div&gt;提供抽象接口，实现多种不同设备SDK的驱采逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="500" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-36" value="动力模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="585" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-37" value="运动模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="585" width="199" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cagWILOptxMrmFHNgYF-38" value="BTM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="199" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
