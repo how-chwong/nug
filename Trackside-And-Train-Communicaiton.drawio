@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T07:53:26.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="X_f5i5m9LTJrvFQMGGZz" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T08:15:06.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TOxKhtwfI1jqOxyI0q76" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1666" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-0" value="线路数据初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="84" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-1" target="nk7zVUFKT3fN3DxJR3ND-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-1" value="创建列车&lt;div&gt;指定列车参数，如车长、轮径、BTM位置等&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="176" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-3" target="nk7zVUFKT3fN3DxJR3ND-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-3" value="使用UDP周期发送列车初始化报文" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="266" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="262" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-5" target="nk7zVUFKT3fN3DxJR3ND-7">
           <mxGeometry relative="1" as="geometry" />
@@ -31,49 +31,65 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-5" value="收到列车脉冲信息" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="165" y="375" width="110" height="80" as="geometry" />
+          <mxGeometry x="365" y="371" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-7" target="nk7zVUFKT3fN3DxJR3ND-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-7" value="根据脉冲计算里程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="516" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-12" target="nk7zVUFKT3fN3DxJR3ND-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-12" value="计算新的车头位置和车尾位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="607" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-14" target="nk7zVUFKT3fN3DxJR3ND-16">
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-12" target="nk7zVUFKT3fN3DxJR3ND-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-12" target="nk7zVUFKT3fN3DxJR3ND-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-12" value="计算新的车头位置和车尾位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-14" target="nk7zVUFKT3fN3DxJR3ND-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="800" />
+              <mxPoint x="420" y="800" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-14" value="计算车身下的计轴区段并标记占压，其他区段标记出清" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="699" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-16" target="nk7zVUFKT3fN3DxJR3ND-18">
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-16" target="nk7zVUFKT3fN3DxJR3ND-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-16" value="计算到前方应答器的距离及应答器报文" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="795" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="699" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-18" target="nk7zVUFKT3fN3DxJR3ND-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-18" value="计算车身坡度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="886" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-20" target="nk7zVUFKT3fN3DxJR3ND-5">
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-18" target="nk7zVUFKT3fN3DxJR3ND-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="1000" />
-              <mxPoint x="90" y="1000" />
-              <mxPoint x="90" y="415" />
+              <mxPoint x="620" y="800" />
+              <mxPoint x="420" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-18" value="计算车身坡度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="699" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-20" target="nk7zVUFKT3fN3DxJR3ND-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="419" y="930" />
+              <mxPoint x="120" y="930" />
+              <mxPoint x="120" y="411" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-20" value="回复响应报文&lt;div&gt;包含应答器、车身坡度等信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="974" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-5" target="nk7zVUFKT3fN3DxJR3ND-3">
           <mxGeometry relative="1" as="geometry" />
