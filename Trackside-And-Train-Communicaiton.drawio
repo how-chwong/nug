@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T08:33:16.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rs3SCbA8tYhEMx7Z8NrJ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T09:27:44.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4xRmDmM6qEiduInuKMMw" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1878" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="738" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -101,6 +101,69 @@
           <mxGeometry x="-0.0437" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-30" target="nk7zVUFKT3fN3DxJR3ND-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-30" value="指定某轨道区段作为当前区段S，偏移量Offset作为起点（S,Offset），沿上行方向移动的距离作为位移Distance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="156" y="1233" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-35" target="nk7zVUFKT3fN3DxJR3ND-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-35" target="nk7zVUFKT3fN3DxJR3ND-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-35" value="Distance &amp;lt;= S.Length" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="106" y="1440" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-37" target="nk7zVUFKT3fN3DxJR3ND-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-37" value="计算当前区段S的上行区段T" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="196" y="1561" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-39" value="返回位置(S，Distance ）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="556" y="1450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-42" target="nk7zVUFKT3fN3DxJR3ND-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-46" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nk7zVUFKT3fN3DxJR3ND-45">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-42" target="nk7zVUFKT3fN3DxJR3ND-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nk7zVUFKT3fN3DxJR3ND-48">
+          <mxGeometry x="-0.1905" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-42" value="T == null" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="226" y="1679" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-44" value="返回位置(S，S.Length）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="456" y="1689" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-47" target="nk7zVUFKT3fN3DxJR3ND-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86" y="1831" />
+              <mxPoint x="86" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-47" value="Distance&amp;nbsp; = Distance&amp;nbsp; - S.Length&amp;nbsp;&lt;div&gt;S = T&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="196" y="1801" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-50" target="nk7zVUFKT3fN3DxJR3ND-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-50" value="Distance = Distance + Offset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="156" y="1334" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
