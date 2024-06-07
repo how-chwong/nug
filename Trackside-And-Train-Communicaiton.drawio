@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T08:10:12.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DnnocbEZx_-4LGSKk0EB" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T08:19:43.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8RH3YgK_oi2zg0XbrsLz" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1426" dy="738" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1878" dy="772" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -288,7 +288,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-97" value="根据车头位置HeadPosition和车尾位置TailPosition获取车头坡度HeadSlope和车尾坡度TailSlope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1110" y="1242" width="300" height="60" as="geometry" />
+          <mxGeometry x="1110" y="1265" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-98" target="nk7zVUFKT3fN3DxJR3ND-100">
           <mxGeometry relative="1" as="geometry" />
@@ -307,10 +307,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-98" value="HeadSlope.Value == TailSlope.Value" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1135" y="1327" width="250" height="60" as="geometry" />
+          <mxGeometry x="1135" y="1348" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-100" value="返回坡度值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1441" y="1327" width="120" height="60" as="geometry" />
+          <mxGeometry x="1441" y="1348" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-102" target="nk7zVUFKT3fN3DxJR3ND-104">
           <mxGeometry relative="1" as="geometry" />
@@ -331,34 +331,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-102" value="列车处于波峰位置" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1135" y="1430" width="250" height="60" as="geometry" />
+          <mxGeometry x="1135" y="1450" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-104" value="返回列车中心点坡度值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1441" y="1430" width="120" height="60" as="geometry" />
+          <mxGeometry x="1441" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.028;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-110" target="nk7zVUFKT3fN3DxJR3ND-111">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1144" y="1570" />
-              <mxPoint x="1070" y="1570" />
+              <mxPoint x="1144" y="1578" />
+              <mxPoint x="1070" y="1578" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-110" target="nk7zVUFKT3fN3DxJR3ND-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1387" y="1570" />
-              <mxPoint x="1440" y="1570" />
+              <mxPoint x="1387" y="1575" />
+              <mxPoint x="1440" y="1575" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-110" value="列车方向是上行" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1137" y="1542" width="250" height="60" as="geometry" />
+          <mxGeometry x="1137" y="1548" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nk7zVUFKT3fN3DxJR3ND-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-111" target="nk7zVUFKT3fN3DxJR3ND-116">
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-111" target="nk7zVUFKT3fN3DxJR3ND-116">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="970" y="1870" />
+              <mxPoint x="970" y="1841" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -369,22 +369,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-113" value="计算车头和车尾的高度&lt;div&gt;HeadHeigth=GetHeightofSlop(HeadSlop.Value,HeadSlop.Offset + HeadSlope.Length -&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;HeadPosition.Offset&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;TailHeight=GetHeightOfSlope(TailSlope.Value,&lt;span style=&quot;background-color: initial;&quot;&gt;TailPosition.Offset -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TailSlope.Offset)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="1740" width="590" height="60" as="geometry" />
+          <mxGeometry x="1040" y="1712" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-116" target="nk7zVUFKT3fN3DxJR3ND-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-116" value="计算车身下所有坡度累计高OtherHeight" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="990" y="1840" width="590" height="60" as="geometry" />
+          <mxGeometry x="990" y="1811" width="590" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-120" target="nk7zVUFKT3fN3DxJR3ND-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-120" value="计算头尾高度差Delta=HeadHigth + TailHeight + OtherHeight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1125" y="1940" width="320" height="60" as="geometry" />
+          <mxGeometry x="1125" y="1899" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-122" value="以车场Length作为斜边，Delta作为高度计算坡度&lt;div&gt;Slope=Math.Tan(Math.Asin(Delta / Length))并返回&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1125" y="2043" width="320" height="60" as="geometry" />
+          <mxGeometry x="1125" y="1988" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
