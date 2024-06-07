@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T07:04:53.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xUQqZTZJcbpGKQBYuijv" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T07:42:22.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nemwkzDicX7H_XRLCfrW" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1878" dy="772" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="738" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -242,6 +242,47 @@
         </mxCell>
         <mxCell id="nk7zVUFKT3fN3DxJR3ND-76" value="CurrentSection = CurrentSection.GetCurrentUpSection" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="474" y="3001" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-80" target="nk7zVUFKT3fN3DxJR3ND-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-80" value="根据坐标(SectionId,Offset)获取到轨道区段CurrentSection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-83" target="nk7zVUFKT3fN3DxJR3ND-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-83" value="CurrentSection != NULL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1045" y="216" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-85" target="nk7zVUFKT3fN3DxJR3ND-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-85" value="从应答器集合中查找到所有&lt;div&gt;位于CurrentSection上且偏移量大于等于Offset的应答器BaliseList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="305" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-87" target="nk7zVUFKT3fN3DxJR3ND-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-87" target="nk7zVUFKT3fN3DxJR3ND-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-96" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nk7zVUFKT3fN3DxJR3ND-93">
+          <mxGeometry x="0.1091" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-87" value="BaliseList == NULL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="400" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nk7zVUFKT3fN3DxJR3ND-89" target="nk7zVUFKT3fN3DxJR3ND-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-89" value="将当前区段的上行区段作为当前区段并令Offset=0&lt;div&gt;CurrentSection = CurrentSection.GetUpSection()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="517.5" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nk7zVUFKT3fN3DxJR3ND-92" value="计算BaliseList[0]起点的距离并返回" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="392.5" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
